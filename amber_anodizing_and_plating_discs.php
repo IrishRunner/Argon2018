@@ -1,0 +1,60 @@
+       
+  <?php include 'header-product.php'; ?>
+
+           <!--    Right Main -->
+            <div class="col-lg-8 liam">
+                <img src="img/amber_anodizing_discs_large.jpg" class="img-fluid table-photo">
+                <div class="table-bar">
+                                CCD AMBER ANODIZING AND PLATING DISCS (500 &deg;F / 260 &deg;C) 
+                </div>
+
+                <div class="table-product-details"> 
+                    <ul> 
+                        <li>2 mil polyester film &amp; 1.5 mil silicone adhesive.</li>
+                        <li>Used in chromic acid.</li>
+                        <li>Aggressive adhesive system prevents leakage.</li>
+                        <li>Other shapes available - incl. squares and rectangles - please enquire!</li>                               
+                    </ul>
+                </div>
+                <div>
+                    <table>
+                        <thead >
+                            <th> Part Number</th>
+                            <th> Diameter</th>
+                            <th> Qty / Roll</th>
+                            <th> Price / Roll </th>
+                        </thead>   
+                        <tbody>
+                           <tr>
+                            <?php
+                               $link = mysqli_connect("sql5c25c.carrierzone.com", "argonusaco889229", "argon2018", "argon2018_argonusaco889229");
+
+                                if(mysqli_connect_error()){
+                                    die ("Connection failed!");
+                                } 
+
+                                $query = "SELECT * FROM  amber_anodizing_and_plating_discs";
+
+                                if ($result = mysqli_query($link, $query)) {
+                                    while($row =  mysqli_fetch_array($result)) {
+                                        echo "<tr>";
+                                        echo "<td>".$row[1]."</td>";
+                                        echo "<td>".$row[2]."</td>";
+                                        echo "<td>".$row[3]."</td>";
+                                        echo "<td>$".$row[5]."</td>";
+                                        echo "</tr>";
+                                    }
+                                }
+                            ?>     
+                           </tr>
+                        </tbody>
+                    </table> 
+                       
+                </div> <!-- End Table div -->  
+            </div> <!--    End Right Main -->
+    </div>
+</div>
+<!-- End Main Section / Wrapper -->
+
+
+<?php include 'footer.php'; ?>

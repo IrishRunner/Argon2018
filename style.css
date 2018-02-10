@@ -1,0 +1,575 @@
+
+html {
+    font-family: "Lato", "Arial", sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*
+=======================================
+Header
+=======================================
+*/
+
+.argon-logo {
+    float: right;
+    margin-top: 5px;
+}
+
+
+.header-bar {
+    background: rgba(0,48,87,1);
+    background: -moz-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,48,87,1)), color-stop(100%, rgba(22,107,187,0.99)));
+    background: -webkit-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+    background: -o-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+    background: -ms-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+    background: linear-gradient(to right, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003057', endColorstr='#166bbb', GradientType=1 );
+    padding-top: .8rem;
+    padding-bottom: .5rem;
+    padding-left: 1%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #fff;
+    font-size: 115%;
+}
+
+/*
+===================================
+Menu
+===================================
+*/
+
+.main-nav {
+    letter-spacing: 1px;
+    word-spacing: 2px;  
+    background: rgba(0,39,87,1);
+    background: -moz-linear-gradient(left, rgba(0,39,87,1) 0%, rgba(0,39,87,1) 0%, rgba(21,91,188,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,39,87,1)), color-stop(0%, rgba(0,39,87,1)), color-stop(100%, rgba(21,91,188,1)));
+    background: -webkit-linear-gradient(left, rgba(0,39,87,1) 0%, rgba(0,39,87,1) 0%, rgba(21,91,188,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,39,87,1) 0%, rgba(0,39,87,1) 0%, rgba(21,91,188,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,39,87,1) 0%, rgba(0,39,87,1) 0%, rgba(21,91,188,1) 100%);
+    background: linear-gradient(to right, rgba(0,39,87,1) 0%, rgba(0,39,87,1) 0%, rgba(21,91,188,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002757', endColorstr='#155bbc', GradientType=1 );
+    position: relative;
+/*    padding-bottom: 3em;*/
+}
+
+.main-nav a {
+/*    display: block;*/
+}
+
+.main-nav li {
+    padding-top: 5%;
+    padding-right: 2%; 
+    text-align: right;
+    list-style: none;
+/*    font-size: 120%;*/
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.main-nav li:last-child {
+    padding-bottom: 10%;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: #fff;    
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.3s;
+    transition: border-bottom 0.3s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #F8D440;
+}
+
+.menu-links {
+    display: block;
+    width: 100%;
+}
+
+.menu-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+============================
+Sticky footer
+============================
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+/*    min-height: 100vh;*/
+}
+
+.wrapper {
+    flex: 1;
+}
+
+
+/*
+=============================
+FOOTER
+=============================
+*/
+
+
+.footer-text {
+    text-align: right;
+}
+
+.footer-bar img {
+    height: 500%;
+    position: absolute;
+    bottom: 3.4em;
+    left: -12em;
+}
+
+.footer-bar {
+    background: rgba(0,48,87,1);
+    background: -moz-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,48,87,1)), color-stop(100%, rgba(22,107,187,0.99)));
+    background: -webkit-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+    background: -o-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+    background: -ms-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+    background: linear-gradient(to right, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003057', endColorstr='#166bbb', GradientType=1 );
+    padding-top: .8rem;
+    padding-bottom: .5rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #fff;
+    font-size: 115%;
+    position: relative;   
+}
+
+/*
+=====================================
+Home Page
+=====================================
+*/
+
+.home-right {
+    background-color: #f4f0f0;
+}
+
+.home-text {
+    font-size: 140%;
+    color: grey;/*rgb(116, 112, 112); */
+    padding: 4% 2%;
+    text-align: justify;
+}
+
+
+.home-text h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home-text h4 {
+    text-align: center;
+}
+
+.liam {
+    padding-right: 0;
+    margin-right: 0;
+} /* Clears right padding and margin down side of item pages to make them line up with header */
+
+.locations a:link,
+.locations a:visited {
+    text-decoration: none;
+    color: grey;    
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.3s;
+    transition: border-bottom 0.3s;
+}
+
+.locations a:hover,
+.locations a:active{
+    border-bottom: 2px solid rgba(0,48,87,1);
+}
+
+.toll-free:after,
+.six-locations:before
+{
+    display: block;
+    height: 2px;
+    background: #747070;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+/*
+=================================================
+Slider
+=================================================
+*/
+
+@keyframes slidy {
+0% { left: 0%; }
+16% { left: 0%; }
+21% { left: -100%; }
+37% { left: -100%; }
+42% { left: -200%; }
+58% { left: -200%; }
+63% { left: -300%; }
+79% { left: -300%; }
+84% { left: -400%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: border-box;
+}
+ figure { 
+  margin: 0; background: #fff;
+  font-weight: 300;
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 16s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: 300px; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,48,87,1);
+background: -moz-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,48,87,1)), color-stop(100%, rgba(22,107,187,0.99)));
+background: -webkit-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+background: -o-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+background: -ms-linear-gradient(left, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+background: linear-gradient(to right, rgba(0,48,87,1) 0%, rgba(22,107,187,0.99) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003057', endColorstr='#166bbb', GradientType=1 );
+  color: #fff; width: 100%;
+  padding: .6rem; 
+}
+
+figcaption {
+    font-size: 20px;
+    font-family: "Lato";
+    letter-spacing: 1px;
+}
+
+.slider a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+/*
+=====================================
+Product Index
+=====================================
+*/
+
+.product-menu-background {
+    background-color: #f4f0f0; /* #d9d3d3;*/
+}
+
+.product-menu-text {
+    font-size: 3rem;
+    text-align: right;
+    font-weight: 700;
+    color: grey;
+}
+
+
+.tape-photo {
+    margin: 0;
+    overflow: hidden;
+    background-color: #484646;
+}
+
+
+.tape-photo img {
+    width: 100%;
+    height: 8em;
+    -webkit-transform: scale(1.18);
+    transform: scale(1.18);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+    opacity: 1;
+}
+
+
+
+.tape-photo img:hover {
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+    opacity: 1;
+}
+
+
+.photo-caption { 
+    background-color: #9a9595;
+    letter-spacing: 1px;
+    line-height: 4.4rem;
+    height: 4.4rem;
+    text-align: center;
+    margin-bottom: 12%;
+}
+
+
+.photo-caption p {
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.4rem;
+}
+
+
+
+
+
+.photo-caption a:link,
+.photo-caption a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;   
+    -webkit-transition: border-bottom 0.3s;
+    transition: border-bottom 0.3s;
+}
+
+
+
+.photo-caption a:hover,
+.photo-caption a:active {
+   color: #f8ca0c;
+}
+
+
+*/
+
+=====================================
+Table
+=====================================
+*/
+
+.table-image {
+    width:100%;
+    margin-bottom:0;   
+}
+
+.table-photo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.product-diagram img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
+
+
+.table-bar {
+    width: 100%;
+    height: 3.5em;
+    line-height: 3.5em;
+    background-color: #00457C;
+    color: white;  
+    text-align: center;
+/*    font-size: 90%;*/
+    text-transform: uppercase;
+    
+}
+
+.table-product-details {
+    width:100%;
+    background-color: white;
+    color:black;
+    line-height: 1.8em;
+    font-family: Arial;
+    font-weight: 400;
+    margin: 2% 0%; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 3px solid gainsboro; 
+    margin-bottom: 5%;
+} 
+
+thead{
+    width: 100%;
+    background-color: #B2C7D7;
+    color: black;     
+    font-weight:400;
+    text-align: left;
+    line-height: 1.5em; /*2.4em; */
+}
+
+thead th {
+    padding: 2%;
+}
+                           
+tbody tr:nth-child(odd){
+    background-color: gainsboro;
+}
+
+tbody tr:hover {
+    background-color: #8cbee7;
+}
+
+td {
+    padding:1%;
+}
+
+.product-details-no-table {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 5%;
+    
+}
+
+/*
+======================
+CONTACT PAGE
+======================
+*/
+
+.contact {
+    color: grey;
+}
+.contact-email {
+    text-align: right;
+    font-size: 110% !important;
+}
+.contact p {
+    line-height: 0.6;
+    font-size: 145%;
+}
+
+.contact h3 {
+    padding-top: 1%;
+    display: inline-block;
+    border-bottom: 3px solid grey;
+}
+
+.contact-california {
+    text-align: center;
+}
+
+.contact-right-align {
+    text-align: right;
+}
+
+.credit-card img {
+    width: 40%;
+    margin-left: 30%;
+    padding: 5% 0;
+}
+
+.terms p {
+    line-height: 1.5;
+    padding: 0 5%;
+    font-size: 95%;
+}
+
+/*
+=================
+PARTNERS PAGE
+=================
+*/
+
+.partner-photo {
+    margin: 0;
+    overflow: hidden;
+}
+
+.partner-photo img {
+    width: 100%;
+    height: 8rem;
+    padding-bottom: 5%;
+}
+
+/*
+=======================
+Media Queries
+=======================
+*/
+
+@media (min-width:200px) {
+    .main-nav li {
+        font-size: 1.6rem;
+    }
+    
+    td {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .main-nav li {
+        font-size: 1.2rem;
+    }
+    .photo-caption {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width:768px) {
+    .main-nav li {
+        font-size: 1.3rem;
+    }
+    
+    td, th {
+        font-size: 1.0rem;
+    }
+    
+    .table-product-details {
+        font-size: 1.4rem;
+    }
+    .table-bar {
+        font-size: 1.4rem;
+    }
+    
+}
+    
+@media (min-width:992px) {
+    td {
+        font-size: 1.1rem;
+        padding-right: 8px;
+    }
+    
+    .photo-caption {
+        font-size: 1rem;
+    }
+    
+    
+}
+
+@media (min-width:1400px) {
+    .main-nav {
+        min-height: 80vh;
+    }   
+}
+
+
